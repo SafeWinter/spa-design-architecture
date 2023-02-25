@@ -1,22 +1,28 @@
-# 《Redis 4.x Cookbook》Learning Notes
+# 《SPA Design and Architecture》Learning Notes
 
 
 
 ## 1. Profiles
 
-![Redis 4.x Cookbook](assets/cover.png)
+![img](assets/cover.png)
 
-|    **Title**    | **Redis 4.x Cookbook** [ISBN: 9781783988167] |
-| :-------------: | :----------------------------------------------------------: |
-|   **Author**    |               **Pengcheng Huang, Zuofei Wang**               |
-| **Publication** |                      **Packt, 2018.2**                       |
-|    **Pages**    |                           **374**                            |
+|    **Title**    | **SPA Design and Architecture** [ISBN: 9781617292439] |
+| :-------------: | :---------------------------------------------------: |
+|   **Author**    |                **Emmit A. Scott, Jr.**                |
+| **Publication** |                 **Manning, 2015.11**                  |
+|    **Pages**    |                        **312**                        |
 
 > **Introduction**
 >
-> Redis is considered the world's most popular key-value store database. Its versatility and the wide variety of use cases it enables have made it a popular choice of database for many enterprises. Based on the latest version of Redis, this book provides both step-by-step recipes and relevant the background information required to utilize its features to the fullest. It covers everything from a basic understanding of Redis data types to advanced aspects of Redis high availability, clustering, administration, and troubleshooting. This book will be your great companion to master all aspects of Redis.
+> *SPA Design and Architecture* teaches you the design and development skills you need to create SPAs. Includes an overview of MV* frameworks, unit testing, routing, layout management, data access, pub/sub, and client-side task automation. This book is full of easy-to-follow examples you can apply to the library or framework of your choice.
 >
-> The book starts off by installing and configuring Redis for you to get started with ease. Moving on, all the data types and features of Redis are introduced in detail. Next, you will learn how to develop applications with Redis in Java, Python, and the Spring Boot web framework. You will also learn replication tasks, which will help you to troubleshoot replication issues. Furthermore, you will learn the steps that need to be undertaken to ensure high availability on your cluster and during production deployment. Toward the end of the book, you will learn the topmost tasks that will help you to troubleshoot your ecosystem efficiently, along with extending Redis by using different modules.
+> **about the technology**
+>
+> The next step in the development of web-based software, single-page web applications deliver the sleekness and fluidity of a native desktop application in a browser. If you're ready to make the leap from traditional web applications to SPAs, but don't know where to begin, this book will get you going.
+>
+> **about the book**
+>
+> *SPA Design and Architecture* teaches you the design and development skills you need to create SPAs. You'll start with an introduction to the SPA model and see how it builds on the standard approach using linked pages. The author guides you through the practical issues of building an SPA, including an overview of MV* frameworks, unit testing, routing, layout management, data access, pub/sub, and client-side task automation. This book is full of easy-to-follow examples you can apply to the library or framework of your choice.
 
 
 
@@ -24,19 +30,27 @@
 
 Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Working) | :no_entry: (Not Started) | :orange_book: (Finish reading)
 
-| No.  |        Chapter Title        |          Status          |
-| :--: | :-------------------------: | :----------------------: |
-| Ch01 | [Chapter Title1](./Ch01.md) |    :heavy_check_mark:    |
-| Ch02 | [Chapter Title2](./Ch02.md) | :hourglass_flowing_sand: |
-| Ch03 | [Chapter Title3](./Ch03.md) |        :no_entry:        |
+| No.  |                 Chapter Title                  |          Status          |
+| :--: | :--------------------------------------------: | :----------------------: |
+|      |             **Part 1 The basics**              |                          |
+| Ch01 | [What is a single-page application](./Ch01.md) | :hourglass_flowing_sand: |
+| Ch02 |    [The role of MV* frameworks](./Ch02.md)     |        :no_entry:        |
+| Ch03 |        [Modular JavaScript](./Ch03.md)         |        :no_entry:        |
+|      |            **Part 2 Core concepts**            |                          |
+| Ch04 |    [Navigating the single page](./Ch04.md)     |        :no_entry:        |
+| Ch05 |    [View composition and layout](./Ch05.md)    |        :no_entry:        |
+| Ch06 |     [Inter-module interaction](./Ch06.md)      |        :no_entry:        |
+| Ch07 |   [Communicating with the server](./Ch07.md)   |        :no_entry:        |
+| Ch08 |           [Unit testing](./Ch08.md)            |        :no_entry:        |
+| Ch09 |    [Client-side task automation](./Ch09.md)    |        :no_entry:        |
 
 
 
 Powershell script for generating markdown files in batch:
 
 ```powershell
-# Create 13 empty markdown files named Ch##.md:
-for($i=1; $i -le 13; $i=$i+1){ New-Item -Name "Ch$('{0:d2}' -f $i).md"; }
+# Create 9 empty markdown files named Ch##.md:
+for($i=1; $i -le 9; $i=$i+1){ New-Item -Name "Ch$('{0:d2}' -f $i).md"; }
 ```
 
  
