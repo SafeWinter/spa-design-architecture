@@ -33,16 +33,16 @@ Status available：:heavy_check_mark: (Completed) | :hourglass_flowing_sand: (Wo
 | No.  |                 Chapter Title                  |          Status          |
 | :--: | :--------------------------------------------: | :----------------------: |
 |      |             **Part 1 The basics**              |                          |
-| Ch01 | [What is a single-page application](./Ch01.md) | :hourglass_flowing_sand: |
-| Ch02 |    [The role of MV* frameworks](./Ch02.md)     |        :no_entry:        |
-| Ch03 |        [Modular JavaScript](./Ch03.md)         |        :no_entry:        |
+| Ch01 | [What is a single-page application](./Ch01.md) |    :heavy_check_mark:    |
+| Ch02 |    [The role of MV* frameworks](./Ch02.md)     |    :heavy_check_mark:    |
+| Ch03 |        [Modular JavaScript](./Ch03.md)         |    :heavy_check_mark:    |
 |      |            **Part 2 Core concepts**            |                          |
-| Ch04 |    [Navigating the single page](./Ch04.md)     |        :no_entry:        |
-| Ch05 |    [View composition and layout](./Ch05.md)    |        :no_entry:        |
-| Ch06 |     [Inter-module interaction](./Ch06.md)      |        :no_entry:        |
-| Ch07 |   [Communicating with the server](./Ch07.md)   |        :no_entry:        |
-| Ch08 |           [Unit testing](./Ch08.md)            |        :no_entry:        |
-| Ch09 |    [Client-side task automation](./Ch09.md)    |        :no_entry:        |
+| Ch04 |    [Navigating the single page](./Ch04.md)     |    :heavy_check_mark:    |
+| Ch05 |    [View composition and layout](./Ch05.md)    |    :heavy_check_mark:    |
+| Ch06 |     [Inter-module interaction](./Ch06.md)      |    :heavy_check_mark:    |
+| Ch07 |   [Communicating with the server](./Ch07.md)   |    :heavy_check_mark:    |
+| Ch08 |           [Unit testing](./Ch08.md)            |    :heavy_check_mark:    |
+| Ch09 |    [Client-side task automation](./Ch09.md)    |    :heavy_check_mark:    |
 
 
 
